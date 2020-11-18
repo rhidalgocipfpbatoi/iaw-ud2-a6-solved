@@ -1,0 +1,104 @@
+.text-center{
+    text-align: center;
+}
+
+.small-image{
+    width: 150px;
+    height: auto;
+}
+.small-card{
+    text-align: center;
+    max-width: 250px;
+    background-color: azure;
+    border: black 1px solid;
+}
+.bolas{
+    display: inline-block;
+}
+
+table, th, td {
+    border: 1px solid black;
+    width:150px; text-align: center;
+    padding: 5px;
+}
+
+.color-table-odd td:nth-child(odd) {
+    background-color: #CCC
+}
+
+.stars {
+    background-color: beige;
+}
+
+th {
+    background-color: antiquewhite;
+}
+
+.selected {
+    background-color: greenyellow;
+}
+
+article.horoscopo {
+    text-align: center;
+    width: 300px;
+    border: 1px solid dimgray;
+    box-shadow: dimgray;
+    margin: 2px;
+    padding: 2px;
+    box-shadow: 10px 10px #888888;
+}
+
+.caja-fuerte {
+    background: #5DEAA8;
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+    border: 10px solid #43B17D;
+    margin: 10px;
+    text-align: center;
+    vertical-align: bottom;
+
+}
+.caja-fuerte .number {
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin: 2px auto;
+    font-size: 14px;
+}
+
+.number input {
+    margin: 10px;
+}
+
+header.basic{
+    background-color: green;
+}
+
+footer.basic {
+    background-color: darkgray;
+}
+
+section.basic {
+    background-color: greenyellow;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+form info.error {
+    display: block;
+}
+
+body{
+    text-align: center;
+}
+
+.content {
+    margin: 10px;
+}

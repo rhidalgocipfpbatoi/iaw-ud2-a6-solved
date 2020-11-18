@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>IAW-UD2-A6</title>
+</head>
+<body>
+
+<h1>Formulario Contacto</h1>
+<form action="/actividad12/procesa.php" method="post">
+    <div>
+        <label for="nombre">Nombre</label>
+        <input id="nombre" type="text" name="nombre">
+        <label for="dni">DNI</label>
+        <input id="dni" type="text" name="dni">
+        <label for="e-mail">e-mail</label>
+        <input id="e-mail" type="email" name="e-mail">
+    </div>
+    <div>
+        <label for="ciudad">Ciudad</label>
+        <input id="ciudad" type="text" name="ciudad">
+        <label for="provincia">Provincia</label>
+        <input id="provincia" type="text" name="provincia">
+        <label for="pais">Pais</label>
+        <select id="pais" name="pais" >
+            <option value="españa">España</option>
+            <option value="francia">Francia</option>
+            <option value="protugal">Portugal</option>
+        </select>
+    </div>
+    <div>
+        <label for="f-nacimiento">Fecha Nacimiento</label>
+        <input id="f-nacimiento" type="date" name="f-nacimiento">
+        <label for="tipo-usuario">Tipo de usuario</label>
+        <select id="tipo-usuario" name="tipo-usuario" >
+            <option value="empresa">Empresa</option>
+            <option value="autonomo">Autonomo</option>
+            <option value="particular">Particulas</option>
+        </select>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Intereses</legend>
+            <input type="checkbox" name="intereses[]" value="deportes">Garaje
+            <input type="checkbox" name="intereses[]" value="cines">Piscina
+            <input type="checkbox" name="intereses[]" value="juegos">Jardín
+            <input type="checkbox" name="intereses[]" value="internet">Jardín
+            <input type="checkbox" name="intereses[]" value="libros">Jardín
+            <input type="checkbox" name="intereses[]" value="cultura">Jardín
+        </fieldset>
+    </div>
+    <div>
+        <input type="submit" value="Enviar">
+        <input type="reset"  value="Borrar">
+    </div>
+</form>
+</body>
+</html>
